@@ -1,0 +1,263 @@
+.CerrarSersion{
+		margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+
+.selectioRow{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+
+
+.selectionIdioma{
+	background-color: white;
+	padding: 5px;
+	border-radius: 15px;
+	margin: 5px;
+}
+
+p,
+label {
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+		color: white;
+}
+
+input {
+  margin: 0.4rem;
+}
+
+.sttingForm{
+	display: grid;
+  place-content: center;
+
+}
+.box{
+	display: grid;
+  place-content: center;
+	justify-items: center;
+
+}
+:root{
+	--f7-theme-color:#5079FE;
+	--f7-navbar-bg-color: ##EEBE13; /*navbar*/
+	--f7-navbar-link-color: #5079FE; /*navbar link*/
+	--f7-navbar-text-color:#7C899F;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent;
+}
+
+
+.block-strong h2{
+
+	text-align: center;
+}
+
+.card h2{
+color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+
+.page-content {
+    background: linear-gradient(180deg, #753603 0%, #ac750c 55.73%, #e3b415 100%);
+}
+
+.navbar{
+	background: linear-gradient(180deg, #EEBE13 0%, #EE9613 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+ul{
+	color:#fff;
+}
+
+.block.instrucciones{
+	margin-bottom: 40px;
+}
+
+.card {
+    display: grid;
+    place-content: center;
+    border-radius: 31px;
+		background: rgb(0 0 0 / 19%);
+    width: 100%;
+    align-content: stretch;
+    align-items: baseline;
+    justify-content: center;
+    justify-items: center;
+    padding: 10%;
+}
+
+.card p{
+color: #FFF;
+}
+
+.card-content h4{
+color: #F0CC71;
+text-align: center;
+font-size: 20px;
+font-weight: 900;
+margin-bottom: -55px;
+}
+
+.card-content h5{
+color: #FFBF1B;
+text-align: center;
+font-size: 32px;
+font-weight: 900;
+margin-bottom: -25px;
+}
+
+.button.aceptar{
+	background-color: #00DC9E;
+color: #1F1F1F;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+letter-spacing: 0.6px;
+border-radius: 34.5px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button.eliminar{
+	background-color: #F5572A;
+color: #1F1F1F;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+letter-spacing: 0.6px;
+border-radius: 34.5px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button.eliminar1{
+	background-color: #F5572A;
+color: #1F1F1F;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+letter-spacing: 0.6px;
+border-radius: 34.5px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	margin: 0 25% 0 25%;
+}
+
+.button.atras{
+	background-color: #7CB73E;
+color: #1F1F1F;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+letter-spacing: 0.6px;
+border-radius: 34.5px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	margin: 0 25% 0 25%;
+}
+
+.card-content h3{
+color:#6EDDBD;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 145.3%;
+}
+
+.card-eliminar{
+background: linear-gradient(180deg, #F09B1D 0%, #F6592B 100%);
+box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.row h3{
+	text-align: center;
+}
+
+.shadow{
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+img.codigo{
+	margin: 0px 18% 0px 18%;
+}
+
+a{
+	color: #F0CC71;
+text-align: center;
+font-size: 20px;
+font-weight: 900;
+margin-bottom: -55px;
+}
+
+img.rank{
+width: 256px;
+height: 256px;
+margin: 30px 13% 30px 13%;
+}
+
+.card-header h4{
+color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+	text-align: center;
+}
+
+img.nice{
+	width: 202px;
+	height: 202px;
+	margin: 20px 18% 20px 18%;
+}
+
+.completada{
+	background-color: #FFF;
+}
+
+.block1 h2,h4{
+	color:#2F4F0C;
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+	text-align: center;
+}
+
+h4.block1{
+	color:#2F4F0C;
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+	text-align: center!important;
+}
+
+.button.completada{
+	background-color: #00DC9E;
+color: #1F1F1F;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+letter-spacing: 0.6px;
+border-radius: 34.5px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	margin: 0 25% 0 25%;
+}
+
+img.fotos{
+	width: 202px;
+	height: 202px;
+	margin: 20px 22% 20px 22%;
+}
